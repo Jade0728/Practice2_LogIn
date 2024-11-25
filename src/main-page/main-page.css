@@ -1,0 +1,113 @@
+.body{
+    box-sizing: border-box;
+    padding:0;
+}
+.heads{
+    display: flex;
+    flex-direction: row; /*default*/
+    align-items: center;
+    margin: 10px 0 20px 10px;
+}
+.logo{
+    margin-right:40px;
+}
+.img{
+    width:150px;
+    height: 40px;
+}
+.menu{
+    display:flex;
+    flex-direction: row;/*default*/
+    text-align: center;
+}
+.menu-item{
+    list-style-type: none;
+    padding-left:15px;
+    cursor: pointer; /*hover*/
+    transition: color 0.3s; /*hover*/
+}
+
+.menu-item:hover {/* hover */
+    color: green;
+    text-decoration: underline;
+}
+.main-content{
+    display: flex;
+    flex-direction: row; /*default*/
+}
+.nav-item:hover {
+    color: #ffcc00;
+    text-decoration: underline; /* 추가된 hover 효과 */
+}
+.login{
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left:10px;
+}
+.login1{
+    width: 200px;
+    height: 130px;
+}
+.login-inputs{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 5px 10px 5px;
+}
+.log-in{
+    border: none;
+        /* 기본 테두리 제거 */
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc;/* 아래쪽 테두리만 추가 */
+ 
+}
+.remem-or-save{
+    display:flex;
+    flex-direction: row;/*default*/
+    margin: 5px 5px 10px 5px;
+}
+.remem-or-save{
+    display:fle;
+    justify-content: space-between;
+    font-size: 13px;
+}
+.login-go{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px 5px 5px;
+}
+.login-go button{
+    background-color: rgb(13, 66, 13);
+    color: white;
+    width:200px;
+    height: 30px;
+    border: none;   
+}
+.login2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.login2-butt{
+    display: flex;
+    flex-direction: row;   /*default*/
+    text-align: center;
+    justify-content: space-between;
+}
+.login2-butt button{
+    background-color: #ffff;
+    margin: 5px 5px 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 11px;
+    height: 30px;
+}
+.error{
+    width:200px;
+}
+.imgs{
+    width: 800px;
+    height: 200px;
+}   
